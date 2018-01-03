@@ -1,16 +1,16 @@
 digraph Tree {
 node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
 edge [fontname=helvetica] ;
-0 [label="descricao_pai_escolaridade <= 0.5\ngini = 0.2066\nsamples = 6395\nvalue = [748, 5647]", fillcolor="#399de5dd"] ;
-1 [label="descricao_responsavel_financeiro <= 0.5\ngini = 0.0602\nsamples = 772\nvalue = [748, 24]", fillcolor="#e58139f7"] ;
+0 [label="descricao_Matriculado <= 0.5\ngini = 0.2066\nsamples = 6395\nvalue = [748, 5647]", fillcolor="#399de5dd"] ;
+1 [label="descricao_Trancado Voluntariamente <= 0.5\ngini = 0.0602\nsamples = 772\nvalue = [748, 24]", fillcolor="#e58139f7"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label="descricao_responsavel_escolaridade <= 0.5\ngini = 0.0184\nsamples = 755\nvalue = [748, 7]", fillcolor="#e58139fd"] ;
+2 [label="descricao_Trancado <= 0.5\ngini = 0.0184\nsamples = 755\nvalue = [748, 7]", fillcolor="#e58139fd"] ;
 1 -> 2 ;
-3 [label="descricao_historico <= 0.5\ngini = 0.0106\nsamples = 752\nvalue = [748, 4]", fillcolor="#e58139fe"] ;
+3 [label="descricao_Concluído <= 0.5\ngini = 0.0106\nsamples = 752\nvalue = [748, 4]", fillcolor="#e58139fe"] ;
 2 -> 3 ;
-4 [label="descricao_raca <= 0.5\ngini = 0.0053\nsamples = 750\nvalue = [748, 2]", fillcolor="#e58139fe"] ;
+4 [label="descricao_Matrícula Vínculo Institucional <= 0.5\ngini = 0.0053\nsamples = 750\nvalue = [748, 2]", fillcolor="#e58139fe"] ;
 3 -> 4 ;
-5 [label="descricao_mae_escolaridade <= 0.5\ngini = 0.0027\nsamples = 749\nvalue = [748, 1]", fillcolor="#e58139ff"] ;
+5 [label="descricao_Intercâmbio <= 0.5\ngini = 0.0027\nsamples = 749\nvalue = [748, 1]", fillcolor="#e58139ff"] ;
 4 -> 5 ;
 6 [label="gini = 0.0\nsamples = 748\nvalue = [748, 0]", fillcolor="#e58139ff"] ;
 5 -> 6 ;
